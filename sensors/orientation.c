@@ -60,7 +60,7 @@ typedef enum {
 static const char* touchScreenName = "";
 static int debug_level = -1;
 static bool orientation_lock = false;
-static OrientationPositions screen_orientation = INVALID;
+static OrientationPositions screen_orientation = TOP;
 static int previous_orientation = -1;
 static char *dev_dir_name;
 static time_t last_sigusr_time = 0;
